@@ -1,3 +1,13 @@
+import movies from './components/movies/movies';
+import locations from './components/locations/locations';
+
+
+import 'bootstrap';
 import '../styles/main.scss';
 
-console.error('hi');
+const init = () => {
+  movies.initializeMovies();
+  locations.initializeLocations();
+};
+
+init();
