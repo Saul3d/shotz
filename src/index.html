@@ -7,8 +7,23 @@
   <title>Shotz</title>
 </head>
 <body>
+  <div id="app">
   <div id="movies" class="d-flex flex-wrap"></div>
-  <div id="locations"></div>
+  <h2>Locations</h2>
+  <div id ="filters">
+    <div class="row">
+      <input id="search-input" type ="text" placeholder= "Search Here!">
+    </div>
+    <div class= "row">
+        <button id ="all" class = "btn btn-outline">All</button>
+        <button id ="morning" class = "btn btn-secondary">Morning</button>
+        <button id ="afternoon" class = "btn btn-success">Afternoon</button>
+        <button id ="evening" class = "btn btn-info">Evening</button>
+        <button id ="dark" class = "btn btn-danger">After Dark</button>
+    </div>
+  </div>
+  <div id="locations" class="d-flex flex-wrap"></div>
   <!-- <button class="btn btn-danger">Bootstrap Button</button> -->
+</div>
 </body>
 </html>
